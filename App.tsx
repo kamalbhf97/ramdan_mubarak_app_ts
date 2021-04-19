@@ -1,12 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View,SafeAreaView,ScrollView  } from 'react-native';
+import { RamadanHome } from './app/ramadan/screens/ramadan-home';
+import { RamadanMap } from './app/ramadan/screens/ramadan-map';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text>Test App , working !</Text>
       <StatusBar style="auto" />
+      <RamadanHome></RamadanHome>
+      <RamadanMap></RamadanMap>
     </View>
   );
 }
